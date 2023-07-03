@@ -2,7 +2,6 @@ const axios = require('axios');
 const checkFilesInZipForRegex = require('./checkToken.js');
 
 const url = 'https://replit.com/graphql'; //dont touch
-const config = require('./config.json')
 const prompt = require("prompt-sync")({ sigint: true });
 let urls =  []
 const green = "\x1b[32m"
